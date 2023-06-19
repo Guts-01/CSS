@@ -1,0 +1,41 @@
+
+body{
+    text-align: center;
+    background-color: gray;
+}
+header{ border: 3px solid black;
+    width: 100%;
+    height: 50px;
+    background-color: antiquewhite;
+}
+main{
+    width: 100%;
+    background-color: gray;
+    display: flex;
+    border: 1px solid black;
+}
+nav{
+    width: 100px;
+    height: 600px;
+    background-color: rgb(171, 171, 211);
+    border: 2px solid black;
+}
+article{
+    background-color: rgb(135, 212, 135);
+    width: 100%;
+    height: 600;
+    justify-content: center;
+    border: 2px solid black;
+}
+aside{
+    width:100px;
+    height: 600px;
+    background-color: rgb(171, 171, 211);
+    border: 2px solid black;
+}
+footer{
+    border: 2px solid black;;
+    width: 100%;
+    height: 40px;
+    background-color: antiquewhite;
+}

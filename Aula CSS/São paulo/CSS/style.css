@@ -1,0 +1,45 @@
+body{
+    background-color: #FFFBE9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     line-height: 1.6;   /* Aumenta a altura entre linhas*/
+     max-width: 1000px;
+     margin: 0 auto;
+}
+h1{
+    color: rgb(0, 0, 0);
+}
+main{
+   
+    width: 660px;
+    float: left;
+}
+h1:hover{
+    background-color: #7E9F19;
+    background: linear-gradient(to left, #ffffff,#838080 );
+    color: #000000;
+    width: 40rem;
+    border-radius: 5rem;
+}
+section{
+    background-color: #FFF;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-shadow: #000000 10px;
+}
+section h2{
+    border-bottom: 1px dashed #c5b20b;
+    margin: 0;
+}
+section img{
+    border: 1px solid #7E9F19 ;
+    float: left;
+    margin: 10px 10px 0 0;
+    padding: 2px;
+}
+img{
+    width: 165px;
+}
+.clear{
+    clear: both;
+}

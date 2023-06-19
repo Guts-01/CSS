@@ -1,0 +1,30 @@
+body{
+    background-image: url(../IMG/istockphoto-1420755455-170667a.jpg);
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.grid{
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    display: grid;
+}
+.Grid-Template-columns-1{
+    grid-template-columns: 100px 100px 100px 100px; /* 4 colunas de 100px de largura*/
+    /* define o numero total de colunas que serão criadas no grid */
+}
+.Grid-Template-columns-2{
+    grid-template-columns: 1fr 2fr;
+}
+.item{
+    background-color: tomato;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.5em;
+}
+.Grid-Template-rows{
+    grid-template-rows: 50px 100px 50px 150px;
+    grid-template-columns: 200px 200px;
+}

@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+header{
+    background-image: url(Imagem/paisagens-com-montanhas-de-neve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0;
+}
+.nav{
+    display: flex;
+   
+}
+.box1{
+    display: flex;
+    gap: 0 40px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.color{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+}
+main{
+    margin-top: 50px;
+}
+
+.titulomain{
+    text-align: center;
+}
+.lorem{
+    margin-top: 40px;
+}
+.paiimg{
+    display: flex;
+    margin-top: 70px;
+}
+.img{
+    margin: auto;
+}
+footer{
+    background-color: rgb(241, 159, 81);
+    width: 100%;
+    height: 200px;
+    margin-top: 70px;
+}
+.footer{
+    display: flex;
+}
+.imgfooter{
+    margin: auto;
+    margin-top: 20px;
+}
+.footer2{
+    display: flex;
+}
+.imgfooter2{
+    margin: auto;
+    margin-top: 40px;
+}

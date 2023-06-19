@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <script>
+    
+    
+    function validaform(){
+        let x = document.forms["myForm"]["fname"].value
+            if(x == ""){
+                alert("nenhum nome foi colocado")
+            } else{
+                alert("seu cadastro foi feito com sucesso")
+            }
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm" onsubmit="validaform()">
+        Nome: <input type="text" name="fname">
+        <input type="submit" value="Registrar">
+ </form>
+ <br>
+ <button type="button"
+ onclick="document.getElementById('demo').innerHTML = Date()">
+ Data e hora</button>
+ <p id="demo"></p>
+</body>
+</html>

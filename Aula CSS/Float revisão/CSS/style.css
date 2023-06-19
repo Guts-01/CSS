@@ -1,0 +1,26 @@
+nav{
+    float: left;
+    width: 100%;
+}
+.div1{
+    background-color: red;
+    float: left;
+    width: 33%;
+}
+.div2{
+    background-color: yellow;
+    float: left;
+    width: 33%;   
+}
+.div3{
+    background-color: green;
+    float: left;
+    width: 33%;  
+}
+.box{
+    background-color: #49a0c9;
+    border: 1px solid black;
+    float: right;
+    width: 200px;
+    height: 300px;
+}

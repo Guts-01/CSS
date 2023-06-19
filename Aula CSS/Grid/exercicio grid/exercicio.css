@@ -1,0 +1,29 @@
+body{
+    background-image: url(../IMG/istockphoto-1420755455-170667a.jpg);
+}
+h1{
+    text-align: center;
+    color: aliceblue;
+}
+.grid{
+    max-width: 600px;
+    display: grid;
+    margin: auto;
+}
+.layout{
+    grid-template-columns: 200px 200px 200px;
+}
+.column{
+ text-align: center;
+ background-color: brown;
+ margin: 5px;
+ height: 40px;
+ color: beige;
+}
+.column:hover{
+    background-color: rgb(0, 102, 255);
+    font-size: 30px;
+}
+.layout2{
+    grid-template-columns: 1fr 2fr;
+}
